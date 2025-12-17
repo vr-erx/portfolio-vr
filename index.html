@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#works">Мои работы</a></li>
+                <li><a href="#services">Услуги</a></li>
+            </ul>
+        </nav>
+        <div class="logo"><img src="img/Logo.png" alt="Логотип"></div>
+        <nav>
+            <ul>
+                <li><a href="#contact">Связь со мной</a></li>
+                <li><a href="#information">Информация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section  class="section-1 container">
+        <div class="text-content">
+            <h2 id="about">О себе</h2>
+            <p>Создаю адаптивные, быстрые и семантически правильные интерфейсы — от макета в Figma до доступной и поддерживаемой вёрстки. Работаю с современным стеком: HTML, CSS, JavaScript.<p>
+            <p>Верстаю не «пиксель в пиксель», а с пониманием контекста: как будет выглядеть макет на разных устройствах, как его поддерживать и масштабировать.</p>
+            <p>Клиентоориентированна, внимателена к деталям, соблюдаю дедлайны и открыта к обратной связи.</p>
+        </div>
+        <img src="img/foto.png" alt="Foto">
+    </section>
+    <section  class="section-2 container">
+        <div class="image-container">
+            <h2 id="works">Мои работы</h2>
+            <img src="img/Vizitka.png" alt="Vizitka">
+            <img src="img/Flexbox.svg" alt="Flexbox">
+        </div>
+        <img src="img/loop-local.png" alt="loop.local" class="vertical-image">
+    </section>
+    <section  class="section-3 container">
+        <h2 id="services">Услуги</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Включает в себя</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Верстка одностраничного сайта</td>
+                    <td>Верстка HTML-каркаса, CSS-стилей, JavaScript элементы.</td>
+                </tr>
+                <tr>
+                    <td>Верстка многостраничного сайта</td>
+                    <td>Верстка HTML-структуры, CSS-стилей, JavaScript элементы.</td>
+                </tr>
+                <tr>
+                    <td>Верстка сайта с карточками</td>
+                    <td>Верстка HTML-каркаса, CSS-стилей (Flexbox верстка).</td>
+                </tr>
+                <tr>
+                    <td>Оптимизация сайта</td>
+                    <td>Оптимизация кода под любое устройсво.</td>
+                </tr>
+                <tr>
+                    <td>Верстка консольной игры</td>    
+                    <td>Верстка на JavaScript (игра для консоли в VS-code).</td>
+                </tr>
+                <tr>
+                    <td>Верстка оконной игры</td>
+                    <td>Верстка на JavaScript и HTML (игра будет открываться в браузере).</td>
+                </tr>
+                <tr>
+                    <td>Макет в Figma</td>
+                    <td>Макет сайта, карточки товара и т.д.</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    <section class="section-4 container">
+        <h2 id="contact" >Связь со мной</h2>
+        <form>
+            <select id="service" name="service">
+                <option value="" disabled selected>Услуги</option>
+                <option value="verstka">Верстка одностраничного сайта</option>
+                <option value="razrabotka">Верстка многостраничного сайта</option>
+                <option value="mini">Верстка сайта с карточками</option>
+                <option value="optimizatsia">Оптимизация сайта</option>
+                <option value="console">Верстка консольной игры</option>
+                <option value="windou">Верстка оконной игры</option>
+                <option value="magazin">Макет в Figma</option>
+            </select>
+            <input type="text" id="name" name="name" placeholder="Ваше ФИО">
+            <input type="email" id="email" name="email" placeholder="Ваш e-mail" required>
+            <textarea id="message" name="message" rows="4" placeholder="Напишите сообщение"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    <section id="information" class="section-5 container">
+        <div class="logo"><img src="img/Logo.png" alt="Логотип"></div>
+        <div><p>Я верстальщик, который кодит не пиксель в пиксель,<br>а с умом: быстро, адаптивно, доступно<br> и с заботой о будущем кода.<br>Работаю с Figma,HTML,CSS,JS,<br> слышу клиента, соблюдаю дедлайны и верю,<br> что хорошая вёрстка — это когда всё работает<br> — и для пользователя, и для команды.</p></div>
+        <div class="links">
+            <h3>Основные ссылки</h3>
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#works">Мои работы</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Связь со мной</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <h3>Соц сети</h3>
+            <ul>
+            <li><a href="https://vk.com/"><img src="img/VK.png" alt="VK">VK<br></a></li>
+            <li><a href="https://web.telegram.org/"><img src="img/Telegram.png" alt="Tg">Telegram</a><br></li>
+            <li><a href="https://mail.ru/"><img src="img/Mail.png" alt="Mail">E-mail</a></li>
+        </ul>
+        </div>
+    </section>
+    <footer>
+        © 2025 Все права защищены
+    </footer>
+</body>
+</html>

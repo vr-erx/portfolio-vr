@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+/* Общие стили */
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+/* Стили для шапки */
+header {
+    background-color: #444; 
+    color: #fff;
+    padding: 20px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li {
+    margin: 0 10px;
+}
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    margin-right: 20px; 
+    text-align: center;
+}
+/* Стили для первой секции */
+.section-1 {
+    background-color: #bebebe; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+.section-1 img {
+    width: 400px;
+    height: 400px;
+    margin-right: 200px;
+}
+.section-1 .text-content {
+    width: 25%;
+    text-align: left;
+    margin-left: 105px;
+}
+.section-1 h2{
+    width: 40%;
+    text-align: left;
+}
+/* Стили для второй секции */
+.section-2 {
+    background-color: #8f8e8e; 
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+    }
+.section-2 .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    margin-bottom: 120px;
+    width: 900px;
+}
+.section-2 img {
+    width: 477px;
+    height: 370px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+.section-2 .vertical-image {
+    width: 335px;
+    height: 460px;
+    margin-top: 75px;
+    margin-right: 400px;
+}
+.section-2 h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-left: -150px;
+}
+/* Стили для третьей секции */
+.section-3 {
+    background-color: #bebebe; 
+    height: 650px;
+}
+.section-3 table {
+    width: 70%;
+    margin-left: 320px;
+    align-items: center;
+    border-collapse: collapse;
+}
+.section-3 th, .section-3 td {
+    border: 3px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+.section-3 th {
+    background-color: #bebebe;
+    color: #000000;
+}
+.section-3 h2{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+/* Стили для четвертой секции */
+.section-4 {
+    background-color:  #8f8e8e; 
+    color: #fff;
+    height: 500px;
+}
+.section-4 form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 40px;
+}
+.section-4 input, .section-4 textarea, .section-4 select {
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 50px;
+}
+.section-4 textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 50px;
+    min-height: 50px;
+}
+.section-4 button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:  #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* Стили для пятой секции */
+.section-5 {
+    background-color:  #bebebe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+.section-5 .logo {
+    width: 100px;
+    height: 75px;
+    margin-left: -120px;
+    margin-bottom: 140px;
+}
+.section-5 .links {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.section-5 .links ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+.section-5 .links li {
+    margin-bottom: 5px;
+}
+.section-5 .social {
+    text-align: left;
+    margin-bottom: 50px;
+}
+.section-5 .social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+.section-5 .social ul{
+    text-align: left;
+    margin-top: 15px;
+    list-style: none;
+}
+.section-5 p{
+    text-align: left;
+    margin-left: -300px;
+}
+/* Стили для подвала */
+footer {
+    background-color: #444; 
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    height: 85px;
+}
